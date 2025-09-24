@@ -1,28 +1,6 @@
 # DISCLAIMER, YOU NEED TO HAVE UNREAL ENGINE 5.4 INSTALLED AND A SETUP PROJECT, THIS WILL LATER BE HOSTED ON A WEBSITE WHENEVER I GET ALONG TO IT TO ONLY NEED A UPLOAD OF TEXTURES
 # - You need to look at every single path in these files - (paklist_fixed.txt, MakeUasset.py, makeMod.bat, makeModConvertSkin.bat, and fileMover.py to match your computer.)
 
-# DISCLAIMER, YOU NEED TO HAVE UNREAL ENGINE 5.4 INSTALLED AND A SETUP PROJECT, THIS WILL LATER BE HOSTED ON A WEBSITE WHENEVER I GET ALONG TO IT TO ONLY NEED A UPLOAD OF TEXTURES
-# - You need to look at every single path in these files - (paklist_fixed.txt, MakeUasset.py, makeMod.bat, makeModConvertSkin.bat, and fileMover.py to match your computer.)
-
-# DISCLAIMER, YOU NEED TO HAVE UNREAL ENGINE 5.4 INSTALLED AND A SETUP PROJECT, THIS WILL LATER BE HOSTED ON A WEBSITE WHENEVER I GET ALONG TO IT TO ONLY NEED A UPLOAD OF TEXTURES
-# - You need to look at every single path in these files - (paklist_fixed.txt, MakeUasset.py, makeMod.bat, makeModConvertSkin.bat, and fileMover.py to match your computer.)
-
-# DISCLAIMER, YOU NEED TO HAVE UNREAL ENGINE 5.4 INSTALLED AND A SETUP PROJECT, THIS WILL LATER BE HOSTED ON A WEBSITE WHENEVER I GET ALONG TO IT TO ONLY NEED A UPLOAD OF TEXTURES
-# - You need to look at every single path in these files - (paklist_fixed.txt, MakeUasset.py, makeMod.bat, makeModConvertSkin.bat, and fileMover.py to match your computer.)
-
-# DISCLAIMER, YOU NEED TO HAVE UNREAL ENGINE 5.4 INSTALLED AND A SETUP PROJECT, THIS WILL LATER BE HOSTED ON A WEBSITE WHENEVER I GET ALONG TO IT TO ONLY NEED A UPLOAD OF TEXTURES
-# - You need to look at every single path in these files - (paklist_fixed.txt, MakeUasset.py, makeMod.bat, makeModConvertSkin.bat, and fileMover.py to match your computer.)
-
-# DISCLAIMER, YOU NEED TO HAVE UNREAL ENGINE 5.4 INSTALLED AND A SETUP PROJECT, THIS WILL LATER BE HOSTED ON A WEBSITE WHENEVER I GET ALONG TO IT TO ONLY NEED A UPLOAD OF TEXTURES
-# - You need to look at every single path in these files - (paklist_fixed.txt, MakeUasset.py, makeMod.bat, makeModConvertSkin.bat, and fileMover.py to match your computer.)
-
-# DISCLAIMER, YOU NEED TO HAVE UNREAL ENGINE 5.4 INSTALLED AND A SETUP PROJECT, THIS WILL LATER BE HOSTED ON A WEBSITE WHENEVER I GET ALONG TO IT TO ONLY NEED A UPLOAD OF TEXTURES
-# - You need to look at every single path in these files - (paklist_fixed.txt, MakeUasset.py, makeMod.bat, makeModConvertSkin.bat, and fileMover.py to match your computer.)
-
-# DISCLAIMER, YOU NEED TO HAVE UNREAL ENGINE 5.4 INSTALLED AND A SETUP PROJECT, THIS WILL LATER BE HOSTED ON A WEBSITE WHENEVER I GET ALONG TO IT TO ONLY NEED A UPLOAD OF TEXTURES
-# - You need to look at every single path in these files - (paklist_fixed.txt, MakeUasset.py, makeMod.bat, makeModConvertSkin.bat, and fileMover.py to match your computer.)
-
-
 # CrossWorlds Skin Conversion Tool
 # by REKS (@ReksArts on Twitter/X)
 
