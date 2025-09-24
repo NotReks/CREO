@@ -1,0 +1,8 @@
+"C:\Users\Asus\Desktop\test\fml\FinalScripts\packingDirectory\02_Union\Asset\Character\Extnd04_Character04001\Texture\T_Extnd04_Character04001_body_L_Bc.uasset" "../../../SankRacists/Content/02_Union/Asset/Character/Extnd04_Character04001/Texture/T_Extnd04_Character04001_body_L_Bc.uasset"
+"C:\Users\Asus\Desktop\test\fml\FinalScripts\packingDirectory\02_Union\Asset\Character\Extnd04_Character04001\Texture\T_Extnd04_Character04001_body_L_Bc.uexp"   "../../../SankRacists/Content/02_Union/Asset/Character/Extnd04_Character04001/Texture/T_Extnd04_Character04001_body_L_Bc.uexp"
+"C:\Users\Asus\Desktop\test\fml\FinalScripts\packingDirectory\02_Union\Asset\Character\Extnd04_Character04001\Texture\T_Extnd04_Character04001_body_L_Bc.ubulk"   "../../../SankRacists/Content/02_Union/Asset/Character/Extnd04_Character04001/Texture/T_Extnd04_Character04001_body_L_Bc.ubulk"
+
+
+
+
+
