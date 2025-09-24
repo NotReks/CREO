@@ -1,8 +1,8 @@
-# DISCLAIMER, YOU NEED TO HAVE UNREAL ENGINE 5.4 INSTALLED AND A SETUP PROJECT, THIS WILL LATER BE HOSTED ON A WEBSITE WHENEVER I GET ALONG TO IT TO ONLY NEED A UPLOAD OF TEXTURES
-# - You need to look at every single path in these files - (paklist_fixed.txt, MakeUasset.py, makeMod.bat, makeModConvertSkin.bat, and fileMover.py to match your computer.)
-
 # CrossWorlds Skin Conversion Tool
 # by REKS (@ReksArts on Twitter/X)
+
+# DISCLAIMER, YOU NEED TO HAVE UNREAL ENGINE 5.4 INSTALLED AND A SETUP PROJECT, THIS WILL LATER BE HOSTED ON A WEBSITE WHENEVER I GET ALONG TO IT TO ONLY NEED A UPLOAD OF TEXTURES
+# - You need to look at every single path in these files - (paklist_fixed.txt, MakeUasset.py, makeMod.bat, makeModConvertSkin.bat, convertSkin.py, and fileMover.py to match your computer.)
 
 This tool allows you to either **manually create a texture** or **automatically convert a standard Minecraft skin (64x64)** into a CrossWorlds-compatible skin mod.
 
@@ -11,7 +11,7 @@ This tool allows you to either **manually create a texture** or **automatically 
 ## 📂 Folder Setup
 
 - **`minecraftskinHere/`**  
-  Place your **64x64 Minecraft skin** PNG file here if you want to use the automatic conversion process.
+  Place your **64x64 Minecraft skin** PNG file here if you want to use the automatic conversion process
 
 - **`textureHere/`**  
   Place your texture here if you've **manually created a CrossWorlds texture** and want to pack it directly without conversion.
@@ -19,6 +19,8 @@ This tool allows you to either **manually create a texture** or **automatically 
 ---
 
 ## ⚙️ How to Use
+
+# DISCLAIMER FOR AUTOMATIC CONVERSION, IT MOSTLY IS BUGGY AND UNFINISHED BECAUSE I SUCK AND COULDN'T FIGURE OUT HOW TO DO IT
 
 ### Automatic Conversion
 1. Put your **64x64 Minecraft skin** inside `minecraftskinHere/`.

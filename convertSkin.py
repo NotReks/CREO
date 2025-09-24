@@ -6,8 +6,8 @@ from collections import deque
 mappingJson = "CWtoMCMapping.json"
 mcTemplate = "MCTemplate.png"
 cwTemplate = "CWTemplate.png"
-inputSkin = r"minecraftskinHere\minecraftSkin.png"
-outputPng = r"textureHere\T_Extnd04_Character04001_body_L_Bc.png"
+inputSkin = r"C:\Users\Asus\Desktop\test\fml\FinalScripts\minecraftskinHere\minecraftSkin.png"
+outputPng = r"C:\Users\Asus\Desktop\test\fml\FinalScripts\textureHere\T_Extnd04_Character04001_body_L_Bc.png"
 
 def loadImage(src):
     if isinstance(src, Image.Image):
