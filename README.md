@@ -57,3 +57,4 @@ These can be used to design textures by hand if you prefer not to use automatic 
 - Only **64x64 Minecraft skins** are supported for automatic conversion.  
 - If you're making your own texture manually, use **CWTemplate.png** as your reference layout.  
 - The conversion relies on a JSON mapping (`CWtoMCMapping.json`) to align regions from Minecraft to CrossWorlds.
+- credit to trumank for retoc, I've packaged it here to make it easier to use. Credit - https://github.com/trumank/retoc
