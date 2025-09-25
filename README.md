@@ -32,5 +32,4 @@
 ## 📝 Notes
 
 - Only **64x64 Minecraft skins** are supported for automatic conversion.  
-- If you're making your own texture manually, use **CWTemplate.png** as your reference layout.  
-- The conversion relies on a JSON mapping (`CWtoMCMapping.json`) to align regions from Minecraft to CrossWorlds.
+- If you have trouble with the texture, edit the resolution to be 1024x1023.
