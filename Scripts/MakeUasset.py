@@ -33,9 +33,10 @@ try:
     for t in tasks:
         for obj in (t.imported_object_paths or []):
             unreal.log_warning(f"Imported: {obj}")
+
             asset = unreal.load_asset(obj)
+            
             if asset and isinstance(asset, unreal.Texture2D):
-                asset.mip_gen_settings = unreal.TextureMipGenSettings.NO_MIPMAPS
                 asset.never_stream = True
                 assetLODGroup = unreal.TextureGroup.TEXTUREGROUP_UI
                 asset.lod_group = assetLODGroup
