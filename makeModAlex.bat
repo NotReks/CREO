@@ -1,3 +1,7 @@
+cd C:\Users\Asus\Desktop\test\fml\FinalScripts\Scripts\
+
+python3 upscalerAlex.py
+
 "E:\UE5\UE_5.4\Engine\Binaries\Win64\UnrealEditor-Cmd.exe" ^ "C:\Users\Asus\Documents\Unreal Projects\SankRacists\SankRacists.uproject" ^ -run=pythonscript -script="C:\Users\Asus\Desktop\test\fml\FinalScripts\Scripts\MakeUassetAlex.py" ^ -nosplash -unattended -nullrhi -stdout -FullStdOutLogOutput ^ -DisablePlugins=Fab,OnlineSubsystemEOS,OnlineSubsystem,OnlineSubsystemSteam ^ -ini:Engine:[OnlineSubsystem]:DefaultPlatformService=None
 
 
@@ -7,9 +11,6 @@
   -cooksinglepackagenorefs ^
   -Map=/Game/02_Union/Asset/Character/Extnd04_Character04002/Texture/Alya ^
   -unversioned -stdout -FullStdOutLogOutput
-
-
-cd C:\Users\Asus\Desktop\test\fml\FinalScripts\Scripts\
 
 python3 fileMoverAlex.py
 
