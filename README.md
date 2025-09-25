@@ -31,5 +31,6 @@
 
 ## 📝 Notes
 
-- Only **64x64 Minecraft skins** are supported for automatic conversion.
-- If the texture results in a bug, edit the image file to be 1024x1023 to not be a perfect square.
+- Only **64x64 Minecraft skins** are supported for automatic conversion.  
+- If you're making your own texture manually, use **CWTemplate.png** as your reference layout.  
+- The conversion relies on a JSON mapping (`CWtoMCMapping.json`) to align regions from Minecraft to CrossWorlds.
