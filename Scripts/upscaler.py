@@ -1,7 +1,17 @@
 from PIL import Image
 import os, tempfile
+import json
 
-path = r"C:\Users\Asus\Desktop\test\fml\FinalScripts\textureHere\SonicBoomMinecraftMod.png"
+config_path = os.path.join(os.path.dirname(os.path.dirname(__file__)), "config.json")
+
+with open(config_path, "r") as f:
+    config = json.load(f)
+
+projectDir = config["projectDir"]
+unrealDir = config["unrealDir"]
+scriptDir = config["scriptDir"]
+
+path = fr"{scriptDir}\textureHere\SonicBoomMinecraftMod.png"
 
 with Image.open(path) as img:
     w, h = img.size

@@ -3,7 +3,7 @@
 # MINECRAFT MODEL FIXES BY CYN (@SxlverCyn on Twitter/X)
 
 # DISCLAIMER, YOU NEED TO HAVE UNREAL ENGINE 5.4 INSTALLED AND A SETUP PROJECT, THIS WILL LATER BE HOSTED ON A WEBSITE WHENEVER I GET ALONG TO IT TO ONLY NEED A UPLOAD OF TEXTURES
-# - You need to look at every single path in these files - (paklist_fixed.txt, MakeUasset.py, makeMod.bat (ALONG WITH THEIR ALEX COUNTERPARTS), and fileMover.py to match your computer.)
+# - CHANGE THE FILE PATHS IN CONFIG.JSON
 
 ---
 

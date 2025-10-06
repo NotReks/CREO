@@ -1,7 +1,17 @@
 import os, pathlib, shutil, traceback
 import unreal
+import json
 
-SRC  = r"C:\Users\Asus\Desktop\test\fml\FinalScripts\textureHere"
+config_path = os.path.join(os.path.dirname(os.path.dirname(__file__)), "config.json")
+
+with open(config_path, "r") as f:
+    config = json.load(f)
+
+projectDir = config["projectDir"]
+unrealDir = config["unrealDir"]
+scriptDir = config["scriptDir"]
+
+SRC  = fr"{scriptDir}\textureHere"
 DEST = "/Game/02_Union/Asset/Character/Extnd04_Character04002/Texture"
 RECURSIVE = True
 

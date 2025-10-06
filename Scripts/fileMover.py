@@ -1,20 +1,31 @@
 import shutil
+import os
+import json
 
-srcUasset = r"C:\Users\Asus\Documents\Unreal Projects\SankRacists\Saved\Cooked\Windows\SankRacists\Content\02_Union\Asset\Character\Extnd04_Character04001\Texture\SonicBoomMinecraftMod.uasset"
-srcUexp = r"C:\Users\Asus\Documents\Unreal Projects\SankRacists\Saved\Cooked\Windows\SankRacists\Content\02_Union\Asset\Character\Extnd04_Character04001\Texture\SonicBoomMinecraftMod.uexp"
-srcUbulk = r"C:\Users\Asus\Documents\Unreal Projects\SankRacists\Saved\Cooked\Windows\SankRacists\Content\02_Union\Asset\Character\Extnd04_Character04001\Texture\SonicBoomMinecraftMod.ubulk"
+config_path = os.path.join(os.path.dirname(os.path.dirname(__file__)), "config.json")
 
-destUasset = r"C:\Users\Asus\Desktop\test\fml\FinalScripts\packingDirectory\02_Union\Asset\Character\Extnd04_Character04001\Texture\SonicBoomMinecraftMod.uasset"
-destUexp = r"C:\Users\Asus\Desktop\test\fml\FinalScripts\packingDirectory\02_Union\Asset\Character\Extnd04_Character04001\Texture\SonicBoomMinecraftMod.uexp"
-destUbulk = r"C:\Users\Asus\Desktop\test\fml\FinalScripts\packingDirectory\02_Union\Asset\Character\Extnd04_Character04001\Texture\SonicBoomMinecraftMod.ubulk"
+with open(config_path, "r") as f:
+    config = json.load(f)
 
-srcDependencyPak = r"C:\Users\Asus\Desktop\test\fml\FinalScripts\Dependencies\z_Fix_Steve_P.pak"
-srcDependencyUtoc = r"C:\Users\Asus\Desktop\test\fml\FinalScripts\Dependencies\z_Fix_Steve_P.utoc"
-srcDependencyUcas = r"C:\Users\Asus\Desktop\test\fml\FinalScripts\Dependencies\z_Fix_Steve_P.ucas"
+projectDir = config["projectDir"]
+unrealDir = config["unrealDir"]
+scriptDir = config["scriptDir"]
 
-destDependencyPak = r"C:\Users\Asus\Desktop\test\fml\FinalScripts\resultingMod\z_Fix_Steve_P.pak"
-destDependencyUtoc = r"C:\Users\Asus\Desktop\test\fml\FinalScripts\resultingMod\z_Fix_Steve_P.utoc"
-destDependencyUcas = r"C:\Users\Asus\Desktop\test\fml\FinalScripts\resultingMod\z_Fix_Steve_P.ucas"
+srcUasset = fr"{projectDir}\Saved\Cooked\Windows\SankRacists\Content\02_Union\Asset\Character\Extnd04_Character04001\Texture\SonicBoomMinecraftMod.uasset"
+srcUexp = fr"{projectDir}\Saved\Cooked\Windows\SankRacists\Content\02_Union\Asset\Character\Extnd04_Character04001\Texture\SonicBoomMinecraftMod.uexp"
+srcUbulk = fr"{projectDir}\Saved\Cooked\Windows\SankRacists\Content\02_Union\Asset\Character\Extnd04_Character04001\Texture\SonicBoomMinecraftMod.ubulk"
+
+destUasset = fr"{scriptDir}\packingDirectory\02_Union\Asset\Character\Extnd04_Character04001\Texture\SonicBoomMinecraftMod.uasset"
+destUexp = fr"{scriptDir}\packingDirectory\02_Union\Asset\Character\Extnd04_Character04001\Texture\SonicBoomMinecraftMod.uexp"
+destUbulk = fr"{scriptDir}\packingDirectory\02_Union\Asset\Character\Extnd04_Character04001\Texture\SonicBoomMinecraftMod.ubulk"
+
+srcDependencyPak = fr"{scriptDir}\Dependencies\z_Fix_Steve_P.pak"
+srcDependencyUtoc = fr"{scriptDir}\Dependencies\z_Fix_Steve_P.utoc"
+srcDependencyUcas = fr"{scriptDir}\Dependencies\z_Fix_Steve_P.ucas"
+
+destDependencyPak = fr"{scriptDir}\resultingMod\z_Fix_Steve_P.pak"
+destDependencyUtoc = fr"{scriptDir}\resultingMod\z_Fix_Steve_P.utoc"
+destDependencyUcas = fr"{scriptDir}\resultingMod\z_Fix_Steve_P.ucas"
 
 try:
     shutil.copyfile(srcUasset, destUasset)
