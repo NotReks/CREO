@@ -10,10 +10,11 @@ with open(config_path, "r") as f:
 projectDir = config["projectDir"]
 unrealDir = config["unrealDir"]
 scriptDir = config["scriptDir"]
+uProject = config["unrealProjectName"]
 
-srcUasset = fr"{projectDir}\Saved\Cooked\Windows\SankRacists\Content\02_Union\Asset\Character\Extnd04_Character04001\Texture\SonicBoomMinecraftMod.uasset"
-srcUexp = fr"{projectDir}\Saved\Cooked\Windows\SankRacists\Content\02_Union\Asset\Character\Extnd04_Character04001\Texture\SonicBoomMinecraftMod.uexp"
-srcUbulk = fr"{projectDir}\Saved\Cooked\Windows\SankRacists\Content\02_Union\Asset\Character\Extnd04_Character04001\Texture\SonicBoomMinecraftMod.ubulk"
+srcUasset = fr"{projectDir}\Saved\Cooked\Windows\{uProject}\Content\02_Union\Asset\Character\Extnd04_Character04001\Texture\SonicBoomMinecraftMod.uasset"
+srcUexp = fr"{projectDir}\Saved\Cooked\Windows\{uProject}\Content\02_Union\Asset\Character\Extnd04_Character04001\Texture\SonicBoomMinecraftMod.uexp"
+srcUbulk = fr"{projectDir}\Saved\Cooked\Windows\{uProject}\Content\02_Union\Asset\Character\Extnd04_Character04001\Texture\SonicBoomMinecraftMod.ubulk"
 
 destUasset = fr"{scriptDir}\packingDirectory\02_Union\Asset\Character\Extnd04_Character04001\Texture\SonicBoomMinecraftMod.uasset"
 destUexp = fr"{scriptDir}\packingDirectory\02_Union\Asset\Character\Extnd04_Character04001\Texture\SonicBoomMinecraftMod.uexp"

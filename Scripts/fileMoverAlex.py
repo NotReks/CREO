@@ -10,10 +10,11 @@ with open(config_path, "r") as f:
 projectDir = config["projectDir"]
 unrealDir = config["unrealDir"]
 scriptDir = config["scriptDir"]
+uProject = config["unrealProjectName"]
 
-srcUasset = fr"{projectDir}\Saved\Cooked\Windows\SankRacists\Content\02_Union\Asset\Character\Extnd04_Character04002\Texture\Alya.uasset"
-srcUexp = fr"{projectDir}\Saved\Cooked\Windows\SankRacists\Content\02_Union\Asset\Character\Extnd04_Character04002\Texture\Alya.uexp"
-srcUbulk = fr"{projectDir}\Saved\Cooked\Windows\SankRacists\Content\02_Union\Asset\Character\Extnd04_Character04002\Texture\Alya.ubulk"
+srcUasset = fr"{projectDir}\Saved\Cooked\Windows\{uProject}\Content\02_Union\Asset\Character\Extnd04_Character04002\Texture\Alya.uasset"
+srcUexp = fr"{projectDir}\Saved\Cooked\Windows\{uProject}\Content\02_Union\Asset\Character\Extnd04_Character04002\Texture\Alya.uexp"
+srcUbulk = fr"{projectDir}\Saved\Cooked\Windows\{uProject}\Content\02_Union\Asset\Character\Extnd04_Character04002\Texture\Alya.ubulk"
 
 destUasset = fr"{scriptDir}\packingDirectoryAlex\02_Union\Asset\Character\Extnd04_Character04002\Texture\Alya.uasset"
 destUexp = fr"{scriptDir}\packingDirectoryAlex\02_Union\Asset\Character\Extnd04_Character04002\Texture\Alya.uexp"

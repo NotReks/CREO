@@ -19,7 +19,7 @@ echo.
 
 python3 "%scriptDir%\Scripts\upscaler.py"
 
-"%unrealDir%\Engine\Binaries\Win64\UnrealEditor-Cmd.exe" ^ "%projectDir%\%unrealProjectName%.uproject" ^ -run=pythonscript -script="C:\Users\Asus\Desktop\test\fml\FinalScripts\Scripts\MakeUasset.py" ^ -nosplash -unattended -nullrhi -stdout -FullStdOutLogOutput ^ -DisablePlugins=Fab,OnlineSubsystemEOS,OnlineSubsystem,OnlineSubsystemSteam ^ -ini:Engine:[OnlineSubsystem]:DefaultPlatformService=None
+"%unrealDir%\Engine\Binaries\Win64\UnrealEditor-Cmd.exe" ^ "%projectDir%\%unrealProjectName%.uproject" ^ -run=pythonscript -script="%scriptDir%\Scripts\MakeUasset.py" ^ -nosplash -unattended -nullrhi -stdout -FullStdOutLogOutput ^ -DisablePlugins=Fab,OnlineSubsystemEOS,OnlineSubsystem,OnlineSubsystemSteam ^ -ini:Engine:[OnlineSubsystem]:DefaultPlatformService=None
 
 
 "%unrealDir%\Engine\Binaries\Win64\UnrealEditor-Cmd.exe" ^
