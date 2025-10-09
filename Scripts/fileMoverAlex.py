@@ -20,22 +20,10 @@ destUasset = fr"{scriptDir}\packingDirectoryAlex\02_Union\Asset\Character\Extnd0
 destUexp = fr"{scriptDir}\packingDirectoryAlex\02_Union\Asset\Character\Extnd04_Character04002\Texture\AlexFix.uexp"
 destUbulk = fr"{scriptDir}\packingDirectoryAlex\02_Union\Asset\Character\Extnd04_Character04002\Texture\AlexFix.ubulk"
 
-srcDependencyPak = fr"{scriptDir}\Dependencies\z_FixAlex_P.pak"
-srcDependencyUtoc = fr"{scriptDir}\Dependencies\z_FixAlex_P.utoc"
-srcDependencyUcas = fr"{scriptDir}\Dependencies\z_FixAlex_P.ucas"
-
-destDependencyPak = fr"{scriptDir}\resultingMod\z_FixAlex_P.pak"
-destDependencyUtoc = fr"{scriptDir}\resultingMod\z_FixAlex_P.utoc"
-destDependencyUcas = fr"{scriptDir}\resultingMod\z_FixAlex_P.ucas"
-
 try:
     shutil.copyfile(srcUasset, destUasset)
     shutil.copyfile(srcUexp, destUexp)
     shutil.copyfile(srcUbulk, destUbulk)
-    
-    shutil.copyfile(srcDependencyPak, destDependencyPak)
-    shutil.copyfile(srcDependencyUtoc, destDependencyUtoc)
-    shutil.copyfile(srcDependencyUcas, destDependencyUcas)
 except FileNotFoundError:
     print("no file")
 except Exception as e:
