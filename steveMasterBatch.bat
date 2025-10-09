@@ -26,7 +26,7 @@ python3 "%scriptDir%\Scripts\upscaler.py"
   "%projectDir%\%unrealProjectName%.uproject" ^
   -run=cook -targetplatform=Windows ^
   -cooksinglepackagenorefs ^
-  -Map=/Game/02_Union/Asset/Character/Extnd04_Character04001/Texture/SonicBoomMinecraftMod ^
+  -Map=/Game/02_Union/Asset/Character/Extnd04_Character04001/Texture/SteveFix ^
   -unversioned -stdout -FullStdOutLogOutput
 
 python3 "%scriptDir%\Scripts\fileMover.py"

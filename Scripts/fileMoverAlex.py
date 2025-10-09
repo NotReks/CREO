@@ -12,13 +12,13 @@ unrealDir = config["unrealDir"]
 scriptDir = config["scriptDir"]
 uProject = config["unrealProjectName"]
 
-srcUasset = fr"{projectDir}\Saved\Cooked\Windows\{uProject}\Content\02_Union\Asset\Character\Extnd04_Character04002\Texture\Alya.uasset"
-srcUexp = fr"{projectDir}\Saved\Cooked\Windows\{uProject}\Content\02_Union\Asset\Character\Extnd04_Character04002\Texture\Alya.uexp"
-srcUbulk = fr"{projectDir}\Saved\Cooked\Windows\{uProject}\Content\02_Union\Asset\Character\Extnd04_Character04002\Texture\Alya.ubulk"
+srcUasset = fr"{projectDir}\Saved\Cooked\Windows\{uProject}\Content\02_Union\Asset\Character\Extnd04_Character04002\Texture\AlexFix.uasset"
+srcUexp = fr"{projectDir}\Saved\Cooked\Windows\{uProject}\Content\02_Union\Asset\Character\Extnd04_Character04002\Texture\AlexFix.uexp"
+srcUbulk = fr"{projectDir}\Saved\Cooked\Windows\{uProject}\Content\02_Union\Asset\Character\Extnd04_Character04002\Texture\AlexFix.ubulk"
 
-destUasset = fr"{scriptDir}\packingDirectoryAlex\02_Union\Asset\Character\Extnd04_Character04002\Texture\Alya.uasset"
-destUexp = fr"{scriptDir}\packingDirectoryAlex\02_Union\Asset\Character\Extnd04_Character04002\Texture\Alya.uexp"
-destUbulk = fr"{scriptDir}\packingDirectoryAlex\02_Union\Asset\Character\Extnd04_Character04002\Texture\Alya.ubulk"
+destUasset = fr"{scriptDir}\packingDirectoryAlex\02_Union\Asset\Character\Extnd04_Character04002\Texture\AlexFix.uasset"
+destUexp = fr"{scriptDir}\packingDirectoryAlex\02_Union\Asset\Character\Extnd04_Character04002\Texture\AlexFix.uexp"
+destUbulk = fr"{scriptDir}\packingDirectoryAlex\02_Union\Asset\Character\Extnd04_Character04002\Texture\AlexFix.ubulk"
 
 srcDependencyPak = fr"{scriptDir}\Dependencies\z_FixAlex_P.pak"
 srcDependencyUtoc = fr"{scriptDir}\Dependencies\z_FixAlex_P.utoc"

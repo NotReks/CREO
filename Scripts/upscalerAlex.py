@@ -11,7 +11,7 @@ projectDir = config["projectDir"]
 unrealDir = config["unrealDir"]
 scriptDir = config["scriptDir"]
 
-path = fr"{scriptDir}\textureHere\Alya.png"
+path = fr"{scriptDir}\textureHere\AlexFix.png"
 
 with Image.open(path) as img:
     w, h = img.size

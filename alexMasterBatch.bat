@@ -20,7 +20,7 @@ echo.
 
 cd %scriptDir%\Scripts\
 
-python3 upscalerAlex.py
+python3 "%scriptDir%\Scripts\upscalerAlex.py"
 
 "%unrealDir%\Engine\Binaries\Win64\UnrealEditor-Cmd.exe" ^ "%projectDir%\%unrealProjectName%.uproject" ^ -run=pythonscript -script="%scriptDir%\Scripts\MakeUassetAlex.py" ^ -nosplash -unattended -nullrhi -stdout -FullStdOutLogOutput ^ -DisablePlugins=Fab,OnlineSubsystemEOS,OnlineSubsystem,OnlineSubsystemSteam ^ -ini:Engine:[OnlineSubsystem]:DefaultPlatformService=None
 
@@ -29,10 +29,10 @@ python3 upscalerAlex.py
   "%projectDir%\%unrealProjectName%.uproject" ^
   -run=cook -targetplatform=Windows ^
   -cooksinglepackagenorefs ^
-  -Map=/Game/02_Union/Asset/Character/Extnd04_Character04002/Texture/Alya ^
+  -Map=/Game/02_Union/Asset/Character/Extnd04_Character04002/Texture/AlexFix ^
   -unversioned -stdout -FullStdOutLogOutput
 
-python3 fileMoverAlex.py
+python3 "%scriptDir%\Scripts\fileMoverAlex.py"
 
 "%unrealDir%\Engine\Binaries\Win64\UnrealPak.exe" ^
  "%scriptDir%\resultingMod\y_modResultAlex_P.pak" ^

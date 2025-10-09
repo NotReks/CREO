@@ -11,7 +11,7 @@ projectDir = config["projectDir"]
 unrealDir = config["unrealDir"]
 scriptDir = config["scriptDir"]
 
-path = fr"{scriptDir}\textureHere\SonicBoomMinecraftMod.png"
+path = fr"{scriptDir}\textureHere\SteveFix.png"
 
 with Image.open(path) as img:
     w, h = img.size

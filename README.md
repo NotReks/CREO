@@ -6,6 +6,12 @@
 # - CHANGE THE FILE PATHS IN CONFIG.JSON
 # - ALSO ADJUST THE PAKLIST DIRECTORIES IN THE DEPENDENCIES FOLDER
 # - MAKE SURE PYTHON 3.12 IS INSTALLED (MICROSOFT STORE) !!
+https://gamebanana.com/mods/625791
+https://gamebanana.com/mods/625791
+https://gamebanana.com/mods/625791
+https://gamebanana.com/mods/625791
+https://gamebanana.com/mods/625791
+
 
 ---
 
@@ -20,15 +26,16 @@
 
 1. Put your texture inside `textureHere/`.
 2. Run **`makeModSteve.bat`** or **`makeModAlex.bat`**.  
-   - Make sure you name the png file for Steve "SonicBoomMinecraftMod"
-   - Make sure you name the png file for Alex "Alya"
-   - Make sure you drag the z_FixAlex_P.pak,utoc,ucas from the Dependencies folder to your ~Mods folder too because fuck me python wants to be stupid
+   - Make sure you name the png file for Steve "SteveFix"!
+   - Make sure you name the png file for Alex "AlexFix"!
+   - GO DOWNLOAD THE MODEL FIXES ON GAMEBANANA BY CYN! https://gamebanana.com/mods/625791
+   
 
 ---
 
 ## 📦 Output
 
-- The resulting mod will be generated in the `resultingMod/` folder with the dependency fixes once you run one of the batch files.
+- The resulting mod will be generated in the `resultingMod/` folder once you run the MakeMod batch file.
 
 ---
 
@@ -37,3 +44,4 @@
 - Only **64x64 Minecraft skins** are supported for automatic conversion.  
 - If the skin is blurry after creation then manually upscale it 16x.
 - If you have trouble with the texture, edit the resolution to be 1024x1023.
+- if the upscaler doesn't work (Your skin is all blurry) go to https://lospec.com/pixel-art-scaler/ to upscale it 16x to 1024x1024
