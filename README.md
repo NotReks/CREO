@@ -25,7 +25,7 @@ https://gamebanana.com/mods/625791
 ## ⚙️ How to Use
 
 1. Put your texture inside `textureHere/`.
-2. Run **`makeModSteve.bat`** or **`makeModAlex.bat`**.  
+2. Run **`MakeMod`**.  
    - Make sure you name the png file for Steve "SteveFix"!
    - Make sure you name the png file for Alex "AlexFix"!
    - GO DOWNLOAD THE MODEL FIXES ON GAMEBANANA BY CYN! https://gamebanana.com/mods/625791
